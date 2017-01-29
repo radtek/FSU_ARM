@@ -198,7 +198,7 @@ void * ReportUnconfirmAlmThrd(void * param) {
 	while (pDb->runStat.isRunning()) {
 		threadDebug
 		if (!loginHdl.isLogin()) {
-			sleep(5);
+			sleep(10);
 		} else {
 			pDb->mtx_newAlmIn.lock();
 			for (auto & db : pDb->vecAlarmDBs) {
