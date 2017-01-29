@@ -1,0 +1,6 @@
+Type,Command(功能码+起始地址+读取个数),Value,ID,Signal,BitLength,ByteLength,ratio,
+Get,0300000064,,,,,3,,
+,,,n01,,,2,,
+,,{,99001001,线电压Uab,,2,,
+,,},,,,,,
+

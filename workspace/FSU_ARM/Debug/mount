@@ -1,0 +1,6 @@
+!#/bin/sh
+mount -t nfs -o nolock 192.168.2.155:/home/fsu/workspace /mnt
+cd /mnt
+cd FSU_ARM/Debug
+ls -l
+

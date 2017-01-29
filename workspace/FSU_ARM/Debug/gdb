@@ -1,0 +1,3 @@
+#!/sh/bin
+./gdbserver :10000 FSU_ARM
+

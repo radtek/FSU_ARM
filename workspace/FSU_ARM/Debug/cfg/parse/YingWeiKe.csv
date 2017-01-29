@@ -1,0 +1,5 @@
+Type,Command(消息头),Value,ID,Signal,BitLength,ByteLength,ratio
+Get,60420000,,,,,13,
+,,,15102001,回风温度,,4,10
+Ctrl,6045C004,1000,15201001,远程开机,,,
+,6045C004,1F00,15202001,远程关机,,,
